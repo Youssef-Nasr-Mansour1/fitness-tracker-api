@@ -9,3 +9,4 @@ A Django-based API for tracking fitness activities, workouts, and progress.
    git clone https://github.com/your-username/fitness-tracker-api.git
    cd fitness-tracker-api
 "# fitness-tracker-api" 
+"# fitness-tracker-api" 
