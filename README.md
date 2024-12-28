@@ -10,3 +10,4 @@ A Django-based API for tracking fitness activities, workouts, and progress.
    cd fitness-tracker-api
 "# fitness-tracker-api" 
 "# fitness-tracker-api" 
+"# Fitness-Tracker" 
