@@ -15,3 +15,8 @@ class ActivityViewSet(viewsets.ModelViewSet):
     def get_queryset(self):
         # Filter activities by the logged-in user
         return Activity.objects.filter(user=self.request.user)
+
+from django.http import HttpResponse
+
+def home(request):
+    return HttpResponse("Welcome to the Fitness Tracker API!")
