@@ -18,9 +18,11 @@ from django.contrib import admin
 from django.urls import path
 from django.urls import path, include
 from activities.views import home
+from rest_framework.authtoken import views
 
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('api/', include('activities.urls')),
+    path('api/token/', views.obtain_auth_token, name='api-token'),
     path('', home, name='home'),
 ]
